@@ -30,7 +30,7 @@ class Rectangle():
 
     # YOUR CODE HERE
     def verify_input(self):
-        if self.width < 0 or self.height < 0:
+        if self.width <= 0 or self.height <= 0:
             return False
         return True
 
